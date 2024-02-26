@@ -172,16 +172,64 @@ plt.show()
 
 Depois pelo perfil profissional.
 Exemplo:
+```
+# gráfico boxplot para Comunicado Sabesp por idade e gênero
+email = sns.catplot(x="Categoria do cargo", y="Workplace",
+                col="Sua liderança estimula o uso da plataforma?",
+                data=df_plot, kind="box",               
+                height=4.8, aspect=0.9)
 
+# Ajuste a posição inicial dos rótulos no eixo x
+email.set_xticklabels(rotation=45, ha='right')
+
+# Rotacionar os rótulos do eixo x em 45 graus
+for ax in email.axes.flat:
+    ax.set_xticks(range(len(ordem_cargo)))
+    ax.set_xticklabels(ordem_cargo)
+    
+    # Adicionar linha pontilhada vermelha para a média
+    mean_value = df_idade['Workplace'].mean()
+    ax.axhline(mean_value, color='red', linestyle='dashed', linewidth=1.5, label='Média')
+
+
+# Adicionar título geral e subtítulo
+plt.figtext(0.05, 1.15, 'Canal Interno por Cargo e Gênero', fontsize=14, fontweight='bold', ha='left')
+plt.figtext(0.05, 1.10, 'Workplace, considerando o estímulo da liderança', fontsize=12, fontweight='bold', color='gray', ha='left')
+ 
+    
+plt.show()
+```
 
 ![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/f6b3692c-8d9c-4996-9cd4-fa1f2fbe98ba)
 
 
 
-E por diretoria.
-Exemplo: 
-![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/81d90779-67bb-4e78-97b9-9a17e70c4eaf)
 
+E por diretoria.
+
+Exemplo: 
+
+```
+# gráfico boxplot para Página da Unidade no Portal Sabesp por diretoria
+email = sns.catplot(x="diretoria", y="Página da Unidade no Portal Sabesp",
+                data=df_dir, kind="box",               
+                height=4.8, aspect=0.9)
+
+# Definição de ordem para o eixo x
+for ax in email.axes.flat:
+    ax.set_xticks(range(len(ordem_diretoria)))
+    ax.set_xticklabels(ordem_diretoria)
+
+
+# Adicionar título geral e subtítulo
+plt.figtext(0.05, 1.15, 'Canal Interno por Diretoria', fontsize=14, fontweight='bold', ha='left')
+plt.figtext(0.05, 1.10, 'Página da UN', fontsize=12, fontweight='bold', color='gray', ha='left')
+ 
+    
+plt.show()
+```
+
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/81d90779-67bb-4e78-97b9-9a17e70c4eaf)
 
 
 
