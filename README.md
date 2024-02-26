@@ -133,6 +133,21 @@ Após o tratamento dos dados é possível obter informações sobre o padrão de
   <img src="https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/2b02cfc1-7a75-4b9f-a0fa-0f0e7c1cf977" alt="Descrição da Imagem)">
 </p>
 
+Os dados foram então avaliados, quanto a preferência, por gênero e idade para cada canal.
+Exemplo:
+
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/f9b6e5a5-c20b-4db4-89ea-b4f48f1632b6)
+
+
+Depois pelo perfil profissional.
+Exemplo:
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/f6b3692c-8d9c-4996-9cd4-fa1f2fbe98ba)
+
+
+
+E por diretoria.
+Exemplo: 
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/81d90779-67bb-4e78-97b9-9a17e70c4eaf)
 
 
 
