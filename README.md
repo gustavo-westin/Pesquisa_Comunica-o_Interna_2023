@@ -125,7 +125,7 @@ linhas
 ## ANÁLISE DESCRITIVA
 Após o tratamento dos dados é possível obter informações sobre o padrão de distribuição e dispersão dos dados. A primeira análise é de prioridade dos veículso de comunicação interna:
 <p align="center">
-  <img src="[(caminho/para/sua/imagem.png](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/b1026aea-59a9-4c82-900c-73999d2d701f)]" alt="Descrição da Imagem">
+  <img src="https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/b1026aea-59a9-4c82-900c-73999d2d701f" alt="Descrição da Imagem">
 </p>
 
 
