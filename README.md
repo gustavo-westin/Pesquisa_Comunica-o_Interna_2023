@@ -65,25 +65,64 @@ df_profile.head()
 
 
 ```c++
-#include <iostream>
+# encontrar as diretorias e superintendências por slice das entras
+# as entradas precisam ser do tipo string e maiusculas (ou minusculas)
+ 
+# Novo df diretoria
+df_dir = df_profile['Sigla da UN'].str[0]
+df_dir = df_dir.rename('Diretoria')
 
-int main() {
-    std::cout << "Hello, world!" << std::endl;
-    return 0;
+# Criar um novo DataFrame com as duas primeiras letras
+df_sup = df_profile['Sigla da UN'].str[:2]
+df_sup = df_sup.rename('Superintendencia')
+
+# Filtrar linhas onde a coluna 'Sigla da UN' começa com 'N', 'O', 'S', 'E', 'U', 'D'
+filtros = [
+    df_profile['Sigla da UN'].str.startswith('N'),
+    df_profile['Sigla da UN'].str.startswith('O'),
+    df_profile['Sigla da UN'].str.startswith('S'),
+    df_profile['Sigla da UN'].str.startswith('E'),
+    df_profile['Sigla da UN'].str.startswith('U'),
+    df_profile['Sigla da UN'].str.startswith('D')
+]
+
+linhas = pd.concat([df_profile[filtro] for filtro in filtros])
+
+linhas
+
+# adicionar diretoria ao df_profile
+
+df_profile['diretoria'] = df_profile['Sigla da UN'].str[0]
+df_profile['sup'] = df_profile['Sigla da UN'].str[0:2]
+
+mapeamento = {
+    'SA': 'M',
+    'OM': 'R',
+    'OG': 'M',
+    'OP': 'R',
+    'ON': 'M',
+    'OD': 'M',
+    'EN': 'T',
+    'UG': 'M',
+    'UB': 'R',
+    'NC': 'X',
+    'DR': 'X',
+    'NO': 'X',
+    'NÃ': 'X',
+    'E': 'X'
 }
+
+# Substituir os valores com base no mapeamento
+df_profile['diretoria'] = df_profile['sup'].replace(mapeamento)
+# retornar a diretoria com apenas uma letra 
+df_profile['diretoria'] = df_profile['diretoria'].str[0]
+
+# Exemplo de exibição do DataFrame resultante
+linhas = pd.concat([df_profile[filtro] for filtro in filtros])
+linhas
 ```
 
 
-
-
-```c++
-#include <iostream>
-
-int main() {
-    std::cout << "Hello, world!" << std::endl;
-    return 0;
-}
-```
 
 
 
