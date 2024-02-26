@@ -43,7 +43,19 @@ Também não há correlação relevante entre as colunas numéricas
 
 
 
-## ANÁLISE DESCRITIVA
+## LIMPEZA DOS DADOS
+
+
+```c++
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
+}
+```
+
+
 
 ```c++
 #include <iostream>
@@ -57,9 +69,14 @@ int main() {
 
 
 
+```c++
+#include <iostream>
 
-
-
+int main() {
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
+}
+```
 
 
 
