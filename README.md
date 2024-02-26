@@ -1,6 +1,7 @@
 # Pesquisa Comunicao Interna 2023
 
-:droplet:@Sabesp:droplet:, esse é o processo de ETL (Extract, Transform and Load) e análise de dados da Pesquisa de Comunicação Interna de 2023.
+:droplet:@Sabesp:droplet:, 
+esse é o processo de ETL (Extract, Transform and Load) e análise de dados da Pesquisa de Comunicação Interna de 2023.
 
 :computer: Processo de ETL:
 *  extração automática em nuvem (azure)
