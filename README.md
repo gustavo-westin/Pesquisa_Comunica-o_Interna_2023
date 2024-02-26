@@ -27,7 +27,7 @@ A pesquisa de comunicação de 2023 teve 1615 respondentes (15% da população),
 
 
 Distribuição entre o público interno:
-
+<br>
 
 | Por diretoria | Por cargo |
 |----------|----------|
@@ -37,7 +37,7 @@ Distribuição entre o público interno:
 
 
 Além disso o público é bem variado quanto ao tempo de casa e a idade
-
+<br>
 
 | Idade | Tempo de Casa |
 |----------|----------|
