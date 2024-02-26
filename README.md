@@ -1,4 +1,4 @@
-# Pesquisa Comunição Interna 2023
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/ef6cde11-5877-4126-ba33-e76009cac4bb)# Pesquisa Comunição Interna 2023
 
 :droplet:@Sabesp:droplet:, 
 
@@ -27,7 +27,7 @@ Breve resumo da metodologia, aplicação e resultados. Dividido nas seguintes se
 *  Pesquisa e amostra: informações sobre a amostra e suas variáveis
 *  Limpeza e tratamento dos dados: breve exemplificação das técnicas aplicadas
 *  Análise descritiva: demonstração simplificada do emprego de técnicas estatísticas utilizados e cruzamento de variáveis
-*  análise de recorrência
+*  análise qualitativa: emprega-se técnicas de recorrência de palavras, agrupamento (clusterização) e comparações não numéricas para avaliar o comportamento e identificar cenários
 
 
 ## PESQUISA E A AMOSTRA
@@ -286,5 +286,16 @@ plt.show()
 | ![Alt text 1](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/482d2636-0413-46c5-80c4-b7fb4f9084cf) | ![Alt text 2](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/9fafa7ae-db45-4be3-9b07-3319ba190612) |
 
 
+### Conclusões
+Após análise descritiva é possível observar:
+*  De forma geral, não há alterações significativas na percepção dos veículos quando analisamos gêneros.
+*  Quanto a idade, há maior adesão ao workplace em uma faixa intermediária, não necessariamente jovens, com uma nítida queda após os 50 anos. TV corporativa e Jornal Mural tem maior adesão em idades maiores.
+*  **Não há diferenças significativas entre o nível operacional, técnico e universitário em relação ao Workplace**
+*  Independente do cargo, tanto o incentivo como a mera adesão da liderança a plataforma geram efeitos positivos. 
+*  Há pouca adesão ao workplace pela liderança (27%)
+*  Há uma diferença muito desproporcional de prioridade da liderança em relação ao portal
+*  M e R tem comportamentos marcadamente diferentes na priorização, o que não é comum nas pesquisas anteriores
+*  Necessário investigar a comunicação em relação a diretoria T no caso do Workplace
+*  Não há diferenças significativas na satisfação geral entre diretorias ou cargos, salvo aprendiz
 
 
