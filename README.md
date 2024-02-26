@@ -133,7 +133,7 @@ Após o tratamento dos dados é possível obter informações sobre o padrão de
 ### Priorização dos canais
 Nesta seção são avaliados elementos como a percepção do público sobre a priorização dos canais de comunicação (sete) de forma comparada com alguns elementos da amostra: gênero, idade, diretoria, atuação da liderança. Cada análise é realizada de forma separada para cada um dos sete canais corporativos. 
 
-A análise base é prioridade geral dos veículso de comunicação interna, independente de qualquer outra variável:
+A análise base é prioridade geral dos veículso de comunicação interna:
 <p align="center">
   <img src="https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/b1026aea-59a9-4c82-900c-73999d2d701f" alt="Descrição da Imagem">
 </p>
@@ -214,7 +214,7 @@ plt.show()
 
 
 
-Neste exemplo, avaliamos de acordo com a diretoria, em relação a ágina da unidade no portal corporativo: 
+Neste exemplo, avaliamos de acordo com a diretoria de forma comparada em relação ao portal, página da UN, jornal mural e TV corporativa:
 
 ```
 # gráfico boxplot para Página da Unidade no Portal Sabesp por diretoria
@@ -239,6 +239,52 @@ plt.show()
 ![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/81d90779-67bb-4e78-97b9-9a17e70c4eaf)
 
 
+Outra análise interessante é a variação da percepção de prioridade conforme a presença ou incentivo da liderança ao Workplace.
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/bb372f1d-b5f8-4b63-ac75-1084a9bf2052)
+
+O que, no entanto, contrasta com a pouca adesão da liderança. 
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/6dd7f980-1366-4101-ac6a-37d138692101)
+
+
+### Avaliação dos atributos e satisfação geral
+Nesta seção, de caráter mais objetivo e simplificado, observa-se como o público percebe atributos essenciais da comunicação, como agilidade, relevância e visibilidade. Além de avaliar a satisfação da comunicação para diferentes grupos. 
+
+**Avaliação por atributos**
+
+```
+#Gráfico conjunto dos atributos
+
+# Criar figura e eixos
+fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(15, 5))
+
+# Gráfico de barras para 'Conteúdo divulgado é suficiente e claro'
+sns.countplot(x='Conteúdo divulgado é suficiente e claro', data=df_plot, ax=axes[0], color='skyblue', edgecolor='black')
+axes[0].set_title('Conteúdo Suficiente')
+
+# Gráfico de barras para 'É ágil (serie 0 a 5)'
+sns.countplot(x='É ágil (serie 0 a 5)', data=df_plot, ax=axes[1], color='salmon', edgecolor='black')
+axes[1].set_title('Agilidade')
+
+# Gráfico de barras para 'Dá visibilidade para as atividades e projetos relacionados ao meu trabalho.'
+sns.countplot(x='Dá visibilidade para as atividades e projetos relacionados ao meu trabalho.', data=df_plot, ax=axes[2], color='lightgreen', edgecolor='black')
+axes[2].set_title('Visibilidade')
+
+# Ajustar layout manualmente
+plt.subplots_adjust(wspace=0.4)
+
+# Mostrar o gráfico
+plt.show()
+```
+
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/881ecd48-a88e-4b6f-8b84-d42f0356e7f6)
+
+**Avaliação da Satisfação**
+Por diretoria
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/482d2636-0413-46c5-80c4-b7fb4f9084cf)
+
+
+Por tipo de cargo
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/9fafa7ae-db45-4be3-9b07-3319ba190612)
 
 
 
