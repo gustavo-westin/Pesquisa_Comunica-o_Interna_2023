@@ -31,8 +31,7 @@ Breve resumo da metodologia, aplicação e resultados. Dividido nas seguintes se
 
 
 ## PESQUISA E A AMOSTRA
-A pesquisa de comunicação de 2023 teve 1615 respondentes (15% da população), com nível de confiança de 95% e erro estimado de 2,27%. A pesquisa buscou obter informações sobre a percepção do público interno sobre os canais de comunicação, seus atributos, o papel da liderança, a satisfação do cliente, entre outros temas de interesse. 
-
+A pesquisa de comunicação de 2023 teve 1615 respondentes (15% da população), com nível de confiança de 95% e erro estimado de 2,27%. A pesquisa buscou obter informações sobre a percepção do público interno sobre os canais de comunicação, seus atributos, o papel da liderança, a satisfação do cliente, entre outros temas de interesse. O arquivo final após tratamento possui **1615 linhas (respondentes) e 54 colunas (variáveis)**.
 
 O perfil dos respondentes é bem distribuído e representativo da população nos quesitos alocação funcional, cargos, gênero, idade e tempo de casa. Há predominância natural de respondentes das unidades M e R (O), mas todas as diretorias, à exceção da K, tem significância estatística.
 
@@ -50,7 +49,7 @@ Obs: não há correlação relevante entre as colunas numéricas de modo a compr
 
 ## LIMPEZA E TRATAMENTO DOS DADOS
 
-Dados vindos de pesquisa precisam passar por um rigoroso processo de uniformização, que envolve diferentes processos de tratamento para facilitar a manipulação e as operações com as variáveis. Eliminar valores ausentes ou nulos, padronizar padrões de escrita, realizar slice para obter as siglas de diretorias e superintendências são alguns exemplos desse processo.
+Dados vindos de pesquisa precisam passar por um rigoroso processo de uniformização, que envolve diferentes processos de tratamento para facilitar a manipulação e as operações com as variáveis. Eliminar valores ausentes ou nulos, padronizar strings e data types, realizar slices para obter as siglas de diretorias e superintendências desejáveis em comparações, aplicar transformação de valores agrupados em variáveis dummies, entre outras atividades de pré-análise. 
 
 Os trechos abaixo demonstram parte dessas operações:
 
@@ -128,7 +127,13 @@ linhas
 ```
 
 ## ANÁLISE DESCRITIVA
-Após o tratamento dos dados é possível obter informações sobre o padrão de distribuição e dispersão dos dados. A primeira análise é de prioridade dos veículso de comunicação interna:
+Após o tratamento dos dados é possível obter informações sobre o padrão de distribuição e dispersão dos dados. São dois eixos principais de análise: priorização dos canais de comunicação e avaliação dos atributos de comunicação e satisfação.
+
+
+### Priorização dos canai
+Nesta seção são avaliados elementos como a percepção do público sobre a priorização dos canais de comunicação de forma comparada com alguns elementos da amostra: gênero, idade, diretoria, atuação da liderança. Isso é feito para cada um dos sete canais em seperado. 
+
+A primeira análise é de prioridade dos veículso de comunicação interna:
 <p align="center">
   <img src="https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/b1026aea-59a9-4c82-900c-73999d2d701f" alt="Descrição da Imagem">
 </p>
