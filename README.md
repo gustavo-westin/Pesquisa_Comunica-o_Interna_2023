@@ -22,13 +22,19 @@ esse é o processo de **ETL** (Extract, Transform and Load) e **Análise de Dado
 :books: Bibliotecas utilizadas: numpy, pandas, matplot, spacy e wordcloud.
 
 # RESUMO
+Breve resumo da metodologia, aplicação e resultados. Dividido nas seguintes seções:
+
+*  Pesquisa e amostra: informações sobre a amostra e suas variáveis
+*  Limpeza e tratamento dos dados: breve exemplificação das técnicas aplicadas
+*  Análise descritiva: demonstração simplificada do emprego de técnicas estatísticas utilizados e cruzamento de variáveis
+*  análise de recorrência
 
 
 ## PESQUISA E A AMOSTRA
 A pesquisa de comunicação de 2023 teve 1615 respondentes (15% da população), com nível de confiança de 95% e erro estimado de 2,27%. A pesquisa buscou obter informações sobre a percepção do público interno sobre os canais de comunicação, seus atributos, o papel da liderança, a satisfação do cliente, entre outros temas de interesse. 
 
 
-Distribuição entre o público interno:<br>
+O perfil dos respondentes é bem distribuído e representativo da população nos quesitos alocação funcional, cargos, gênero, idade e tempo de casa. Há predominância natural de respondentes das unidades M e R (O), mas todas as diretorias, à exceção da K, tem significância estatística.
 
 
 | Por diretoria | Por cargo |
@@ -36,14 +42,13 @@ Distribuição entre o público interno:<br>
 | ![Alt text 1](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/ca21d208-d112-4e86-b083-7c7cd7e78653) | ![Alt text 2](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/334600f6-105d-4fab-a839-0d8bef3ff308) |
 
 
-Obs: os respondentes tem variação distribuída quanto ao tempo de casa e a idade <br>
-Também não há correlação relevante entre as colunas numéricas
+Obs: não há correlação relevante entre as colunas numéricas de modo a comprometer análises cruzadas
 
 ![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/4f80616e-7297-4486-8e4e-cd7457bec386)
 
 
 
-## LIMPEZA DOS DADOS
+## LIMPEZA E TRATAMENTO DOS DADOS
 
 Dados vindos de pesquisa precisam passar por um rigoroso processo de uniformização, que envolve diferentes processos de tratamento para facilitar a manipulação e as operações com as variáveis. Eliminar valores ausentes ou nulos, padronizar padrões de escrita, realizar slice para obter as siglas de diretorias e superintendências são alguns exemplos desse processo.
 
