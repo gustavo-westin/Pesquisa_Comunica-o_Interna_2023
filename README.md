@@ -130,7 +130,7 @@ Após o tratamento dos dados é possível obter informações sobre o padrão de
 
 
 <p align="center">
-  <img src="[(https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/2b02cfc1-7a75-4b9f-a0fa-0f0e7c1cf977]" alt="Descrição da Imagem)">
+  <img src="https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/2b02cfc1-7a75-4b9f-a0fa-0f0e7c1cf977" alt="Descrição da Imagem)">
 </p>
 
 
