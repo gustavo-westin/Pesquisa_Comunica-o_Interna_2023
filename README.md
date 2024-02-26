@@ -249,7 +249,8 @@ O que, no entanto, contrasta com a pouca adesão da liderança.
 ### Avaliação dos atributos e satisfação geral
 Nesta seção, de caráter mais objetivo e simplificado, observa-se como o público percebe atributos essenciais da comunicação, como agilidade, relevância e visibilidade. Além de avaliar a satisfação da comunicação para diferentes grupos. 
 
-**Avaliação por atributos**
+**Avaliação por atributos**<br>
+
 
 ```
 #Gráfico conjunto dos atributos
@@ -279,12 +280,10 @@ plt.show()
 ![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/881ecd48-a88e-4b6f-8b84-d42f0356e7f6)
 
 **Avaliação da Satisfação**
-Por diretoria
-![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/482d2636-0413-46c5-80c4-b7fb4f9084cf)
 
-
-Por tipo de cargo
-![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/9fafa7ae-db45-4be3-9b07-3319ba190612)
+| Por diretoria | Por cargo |
+|----------|----------|
+| ![Alt text 1](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/482d2636-0413-46c5-80c4-b7fb4f9084cf) | ![Alt text 2](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/9fafa7ae-db45-4be3-9b07-3319ba190612) |
 
 
 
