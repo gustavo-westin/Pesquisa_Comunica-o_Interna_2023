@@ -21,7 +21,7 @@ esse é o processo de **ETL** (Extract, Transform and Load) e **análise de dado
 
 :books: Bibliotecas utilizadas: numpy, pandas, matplot, spacy e wordcloud.
 
-#RESUMO
+# RESUMO
 
 
 ## PESQUISA E A AMOSTRA
