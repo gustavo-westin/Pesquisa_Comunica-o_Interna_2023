@@ -28,7 +28,7 @@ A pesquisa de comunicação de 2023 teve 1615 respondentes (15% da população),
 
 Distribuição entre o público interno:
 
-| Imagem 1 | Imagem 2 |
+| Por diretoria | Por cargo |
 |----------|----------|
 | ![Alt text 1](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/ca21d208-d112-4e86-b083-7c7cd7e78653) | ![Alt text 2](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/334600f6-105d-4fab-a839-0d8bef3ff308) |
 
