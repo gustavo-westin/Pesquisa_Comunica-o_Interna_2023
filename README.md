@@ -130,10 +130,10 @@ linhas
 Após o tratamento dos dados é possível obter informações sobre o padrão de distribuição e dispersão dos dados. São dois eixos principais de análise: priorização dos canais de comunicação e avaliação dos atributos de comunicação e satisfação.
 
 
-### Priorização dos canai
-Nesta seção são avaliados elementos como a percepção do público sobre a priorização dos canais de comunicação de forma comparada com alguns elementos da amostra: gênero, idade, diretoria, atuação da liderança. Isso é feito para cada um dos sete canais em seperado. 
+### Priorização dos canais
+Nesta seção são avaliados elementos como a percepção do público sobre a priorização dos canais de comunicação (sete) de forma comparada com alguns elementos da amostra: gênero, idade, diretoria, atuação da liderança. Cada análise é realizada de forma separada para cada um dos sete canais corporativos. 
 
-A primeira análise é de prioridade dos veículso de comunicação interna:
+A análise base é prioridade geral dos veículso de comunicação interna, independente de qualquer outra variável:
 <p align="center">
   <img src="https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/b1026aea-59a9-4c82-900c-73999d2d701f" alt="Descrição da Imagem">
 </p>
@@ -143,9 +143,9 @@ A primeira análise é de prioridade dos veículso de comunicação interna:
   <img src="https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/2b02cfc1-7a75-4b9f-a0fa-0f0e7c1cf977" alt="Descrição da Imagem)">
 </p>
 
-Os dados foram então avaliados, quanto a preferência, por gênero e idade para cada canal.
+A partir desse primeiro parâmetro realiza-se cruzamentos para comparação. Para fins de vizualização, respeitando os critérios e a demonstração de dispersão dos dados, optou-se por modelos comparados de boxplot.
 
-Exemplo:
+No exemplo abaixo avaliamos a preferência por gênero e idade para o canal **Workplace**
 
 ```
 # ordem desejada do eixo x para todas as séries abaixo
@@ -180,8 +180,7 @@ plt.show()
 ![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/f9b6e5a5-c20b-4db4-89ea-b4f48f1632b6)
 
 
-Depois pelo perfil profissional.
-Exemplo:
+Neste outro exemplo avaliamos a preferência por idade e gênero, também do Workplace:
 ```
 # gráfico boxplot para Comunicado Sabesp por idade e gênero
 email = sns.catplot(x="Categoria do cargo", y="Workplace",
@@ -215,9 +214,7 @@ plt.show()
 
 
 
-E por diretoria.
-
-Exemplo: 
+Neste exemplo, avaliamos de acordo com a diretoria, em relação a ágina da unidade no portal corporativo: 
 
 ```
 # gráfico boxplot para Página da Unidade no Portal Sabesp por diretoria
