@@ -1,4 +1,4 @@
-# Pesquisa Comunicão Interna 2023
+# Pesquisa Comunição Interna 2023
 
 :droplet:@Sabesp:droplet:, 
 
