@@ -180,7 +180,7 @@ plt.show()
 ![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/f9b6e5a5-c20b-4db4-89ea-b4f48f1632b6)
 
 
-Neste outro exemplo avaliamos a preferência por idade e gênero, também do Workplace:
+Neste outro exemplo avaliamos a preferência por cargo, em análise comparada do E-mail matinal, Comunicado Sabesp e Workplace:
 ```
 # gráfico boxplot para Comunicado Sabesp por idade e gênero
 email = sns.catplot(x="Categoria do cargo", y="Workplace",
