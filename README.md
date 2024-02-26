@@ -35,5 +35,24 @@ Distribuição entre o público interno:
 
 
 
-O perfil do 
+Além disso o público é bem variado quanto ao tempo de casa e a idade
+| Idade | Tempo de Casa |
+|----------|----------|
+| ![Alt text 1](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/dac5c3be-abfd-400e-a310-cf875367ad20) | ![Alt text 2](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/323c6cda-26e8-46a9-b50a-6b333842c8e0) |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
