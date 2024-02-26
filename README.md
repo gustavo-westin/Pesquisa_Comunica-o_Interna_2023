@@ -22,7 +22,7 @@ esse é o processo de **ETL** (Extract, Transform and Load) e **análise de dado
 :books: Bibliotecas utilizadas: numpy, pandas, matplot, spacy e wordcloud.
 
 
-## Breve Resumo
+## SOBRE A PESQUISA E A AMOSTRA
 A pesquisa de comunicação de 2023 teve 1615 respondentes (15% da população), com nível de confiança de 95% e erro estimado de 2,27%. A pesquisa buscou obter informações sobre a percepção do público interno sobre os canais de comunicação, seus atributos, o papel da liderança e a satisfação do cliente. 
 
 
