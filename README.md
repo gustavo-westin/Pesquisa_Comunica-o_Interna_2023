@@ -45,8 +45,14 @@ Também não há correlação relevante entre as colunas numéricas
 
 ## ANÁLISE DESCRITIVA
 
+```c++
+#include <iostream>
 
-
+int main() {
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
+}
+```
 
 
 
