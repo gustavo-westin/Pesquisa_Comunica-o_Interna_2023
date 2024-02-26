@@ -45,14 +45,21 @@ Também não há correlação relevante entre as colunas numéricas
 
 ## LIMPEZA DOS DADOS
 
+Há algumas alterações relevantes nos dados para torná-los melhor manipuláveis ao longo do processo de análise, como: eliminar valores ausentes ou nulos, padronizar padrões de escrita, realizar slice para obter as siglas de diretorias e superintendências.
+
+Os exemplos abaixo demonstram essas operações:
+
 
 ```c++
-#include <iostream>
-
-int main() {
-    std::cout << "Hello, world!" << std::endl;
-    return 0;
-}
+# split df em duas séries para dropar NaN values
+dfnum_serie1 = df_num[['Comunicado Sabesp (serie 0 a 7)', 'E-mail matinal Workplace', 'Jornal Mural', 'Página da Unidade no Portal Sabesp', 'Portal Corporativo Sabesp', 'TV Corporativa', 'Workplace']]
+dfnum_serie2 = df_num[['É ágil (serie 0 a 5)', 'Conteúdo divulgado é suficiente e claro', 'Dá visibilidade para as atividades e projetos relacionados ao meu trabalho.', 'Qual o seu nível de satisfação com a Comunicação Interna Sabesp?']]
+# dropar linhas NaN para dfnum_serie2
+dfnum_serie2 = dfnum_serie2.dropna()
+dfnum_serie2.isna().sum()
+# serie descritiva do tipo de público respondente
+df_profile = df[['Idade', 'Gênero', 'Categoria do cargo', 'Sigla da UN', 'Tempo de atuação na Sabesp']]
+df_profile.head()
 ```
 
 
