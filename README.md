@@ -21,9 +21,11 @@ esse é o processo de **ETL** (Extract, Transform and Load) e **análise de dado
 
 :books: Bibliotecas utilizadas: numpy, pandas, matplot, spacy e wordcloud.
 
+#RESUMO
 
-## SOBRE A PESQUISA E A AMOSTRA
-A pesquisa de comunicação de 2023 teve 1615 respondentes (15% da população), com nível de confiança de 95% e erro estimado de 2,27%. A pesquisa buscou obter informações sobre a percepção do público interno sobre os canais de comunicação, seus atributos, o papel da liderança e a satisfação do cliente. 
+
+## PESQUISA E A AMOSTRA
+A pesquisa de comunicação de 2023 teve 1615 respondentes (15% da população), com nível de confiança de 95% e erro estimado de 2,27%. A pesquisa buscou obter informações sobre a percepção do público interno sobre os canais de comunicação, seus atributos, o papel da liderança e a satisfação do cliente, entre outros temas. 
 
 
 Distribuição entre o público interno:<br>
@@ -34,15 +36,14 @@ Distribuição entre o público interno:<br>
 | ![Alt text 1](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/ca21d208-d112-4e86-b083-7c7cd7e78653) | ![Alt text 2](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/334600f6-105d-4fab-a839-0d8bef3ff308) |
 
 
+Obs: os respondentes tem variação distribuída quanto ao tempo de casa e a idade <br>
+Também não há correlação relevante entre as colunas numéricas
+
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/4f80616e-7297-4486-8e4e-cd7457bec386)
 
 
-Além disso o público é bem variado quanto ao tempo de casa e a idade <br>
 
-
-| Idade | Tempo de Casa |
-|----------|----------|
-| ![Alt text 1](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/dac5c3be-abfd-400e-a310-cf875367ad20) | ![Alt text 2](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/323c6cda-26e8-46a9-b50a-6b333842c8e0) |
-
+## ANÁLISE DESCRITIVA
 
 
 
