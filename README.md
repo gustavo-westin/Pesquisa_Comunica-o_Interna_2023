@@ -134,13 +134,46 @@ Após o tratamento dos dados é possível obter informações sobre o padrão de
 </p>
 
 Os dados foram então avaliados, quanto a preferência, por gênero e idade para cada canal.
+
 Exemplo:
 
+```
+# ordem desejada do eixo x para todas as séries abaixo
+ordem_desejada = ['Menor de 18 anos', 'Entre 18 e 30 anos', 'Entre 31 e 40 anos', 'Entre 41 e 50 anos', 'Entre 51 e 60 anos', 'Entre 61 e 70 anos']
+
+# gráfico boxplot para e-mail por idade e gênero
+email = sns.catplot(x="Idade", y="E-mail matinal Workplace",
+                col="Gênero",
+                data=df_idade, kind="box",              
+                height=4.8, aspect=0.9)
+
+# Ajuste a posição inicial dos rótulos no eixo x
+email.set_xticklabels(rotation=45, ha='right')
+
+
+# Rotacionar os rótulos do eixo x em 45 graus
+for ax in email.axes.flat:
+    ax.set_xticks(range(len(ordem_desejada)))
+    ax.set_xticklabels(ordem_desejada)
+    
+    # Adicionar linha pontilhada vermelha para a média
+    mean_value = df_idade['E-mail matinal Workplace'].mean()
+    ax.axhline(mean_value, color='red', linestyle='dashed', linewidth=1.5, label='Média')
+    
+    
+# Adicionar título geral e subtítulo
+plt.figtext(0.05, 1.15, 'Canal Interno por Faixa Etária e Gênero', fontsize=14, fontweight='bold', ha='left')
+plt.figtext(0.05, 1.10, 'E-mail matinal Workplace', fontsize=12, fontweight='bold', color='gray', ha='left')
+
+plt.show()
+```
 ![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/f9b6e5a5-c20b-4db4-89ea-b4f48f1632b6)
 
 
 Depois pelo perfil profissional.
 Exemplo:
+
+
 ![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/f6b3692c-8d9c-4996-9cd4-fa1f2fbe98ba)
 
 
