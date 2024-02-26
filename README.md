@@ -1,6 +1,6 @@
 # Pesquisa Comunicao Interna 2023
 
-@Sabesp, esse é o processo de ETL (Extract, Transform and Load) e análise de dados da Pesquisa de Comunicação Interna de 2023.
+:droplet:@Sabesp, esse é o processo de ETL (Extract, Transform and Load) e análise de dados da Pesquisa de Comunicação Interna de 2023.
 É uma pesquisa realizada anualmente, pela PC, via microsoft forms para toda empresa.
 
 No processo de ETL:
