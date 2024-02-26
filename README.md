@@ -29,6 +29,8 @@ Breve resumo da metodologia, aplicação e resultados. Dividido nas seguintes se
 *  Análise descritiva: demonstração simplificada do emprego de técnicas estatísticas utilizados e cruzamento de variáveis
 *  análise qualitativa: emprega-se técnicas de recorrência de palavras, agrupamento (clusterização) e comparações não numéricas para avaliar o comportamento e identificar cenários
 
+Obs: o arquivo em PPT contém a apresentação completa e comentada
+
 
 ## PESQUISA E A AMOSTRA
 A pesquisa de comunicação de 2023 teve 1615 respondentes (15% da população), com nível de confiança de 95% e erro estimado de 2,27%. A pesquisa buscou obter informações sobre a percepção do público interno sobre os canais de comunicação, seus atributos, o papel da liderança, a satisfação do cliente, entre outros temas de interesse. O arquivo final após tratamento possui **1615 linhas (respondentes) e 54 colunas (variáveis)**.
@@ -297,5 +299,56 @@ Após análise descritiva é possível observar:
 *  M e R tem comportamentos marcadamente diferentes na priorização, o que não é comum nas pesquisas anteriores
 *  Necessário investigar a comunicação em relação a diretoria T no caso do Workplace
 *  Não há diferenças significativas na satisfação geral entre diretorias ou cargos, salvo aprendiz
+
+
+## ANÁLISE QUALITATIVA
+Os dados desta análise não são númericos ou categóricos, de modo que é necessário realizar tratamentos específicos para avaliar o conteúdo de forma computacional ou fazer avaliações comparativas com base em uma análise humana. De forma geral, utilizou-se três métodos de análise: 
+*  Análise de recorrência, após tokenzinação por NLP (Natural Language Processment)
+*  Agrupamento por clusterização (k-means)
+*  Análise de texto (humano)
+
+A análise de recorrência pode ser avaliada pela criação de wordclouds. No exemplo abaixo, buscamos a maior recorrência para a pergunta “Existem outros meios de comunicação que você utiliza para se manter informado sobre a Sabesp ou suas atividades?”
+```
+# Supondo que 'df_veiculos' seja o seu dataframe
+# deixei tudo como string e tudo como lower para evitar erros ou repetições não desejadas
+text = ' '.join(df_veiculos.astype(str).str.lower())
+
+# Processamento de texto com Spacy
+nlp = spacy.load('pt_core_news_sm')
+# Transformação do texto em documento
+doc = nlp(text)
+
+# Filtrando palavras relevantes (substantivos, adjetivos, etc.) e removendo stopwords
+relevant_words = [token.text for token in doc if token.is_alpha and not token.is_stop]
+
+# Criando a nuvem de palavras com WordCloud
+wordcloud = WordCloud(width=800, height=400, max_words=200, background_color='white').generate(' '.join(relevant_words))
+
+# Exibindo a nuvem de palavras
+plt.figure(figsize=(10, 5))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')
+plt.show()
+```
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/aebe84de-d695-4325-8248-e36b84afa52a)
+
+Já a análise de clusters consegue compor uma avaliação das principais evidências da avaliação positiva ou negativa em relação a TV Corporativa.
+
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/e9cb4cc9-4827-45d8-bf83-ae80fb108756)
+
+Já a análise de texto propriamente dita, permite elaborar sentimentos e percepções mais específicas do público, identificado padrões similares entre os pontos de vista e resumindo-os em frases explicativas. O exemplo abaixo se refere ao Workplace.
+* “Não tenho tempo para acompanhar tudo, entro somente quando é extremamente necessário.“
+* “Gostaria de acompanhar mais, mas a rotina do dia a dia não permite.”
+* "O Workplace está mais para uma plataforma de propaganda de eventos"
+* "A grande vantagem dessa ferramenta é que as informações não são mais filtradas ou censuradas.”
+* “Workplace já faz parte diária das Informações inclusive complementares do portal sabesp”
+* “Ajuda na interação com outros colaboradores e outras areas da sabesp”
+
+### Recomendações
+A análise conjunta entre as duas abordagens, estatística descritiva e análise qualitativa, permite ao analista fazer recomendações ao grupo responsável pela comunicação interna. Para não alongar muito a análise, nos ateremos apenas as recomendações do Workplace. O restante do material pode ser acessado nos arquivos anexos. 
+
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/fd9c8af9-8446-473c-b796-62bb14a60807)
+
+
 
 
