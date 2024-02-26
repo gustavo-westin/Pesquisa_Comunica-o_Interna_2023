@@ -122,6 +122,11 @@ linhas = pd.concat([df_profile[filtro] for filtro in filtros])
 linhas
 ```
 
+## ANÁLISE DESCRITIVA
+Após o tratamento dos dados é possível obter informações sobre o padrão de distribuição e dispersão dos dados.
+
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/b1026aea-59a9-4c82-900c-73999d2d701f)
+
 
 
 
