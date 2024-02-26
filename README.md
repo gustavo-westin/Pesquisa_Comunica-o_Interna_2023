@@ -123,9 +123,12 @@ linhas
 ```
 
 ## ANÁLISE DESCRITIVA
-Após o tratamento dos dados é possível obter informações sobre o padrão de distribuição e dispersão dos dados.
+Após o tratamento dos dados é possível obter informações sobre o padrão de distribuição e dispersão dos dados. A primeira análise é de prioridade dos veículso de comunicação interna:
 
 ![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/b1026aea-59a9-4c82-900c-73999d2d701f)
+
+![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/2b02cfc1-7a75-4b9f-a0fa-0f0e7c1cf977)
+
 
 
 
