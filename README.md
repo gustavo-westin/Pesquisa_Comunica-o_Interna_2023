@@ -45,9 +45,9 @@ Também não há correlação relevante entre as colunas numéricas
 
 ## LIMPEZA DOS DADOS
 
-Há algumas alterações relevantes nos dados para torná-los melhor manipuláveis ao longo do processo de análise, como: eliminar valores ausentes ou nulos, padronizar padrões de escrita, realizar slice para obter as siglas de diretorias e superintendências.
+Dados vindos de pesquisa precisam passar por um rigoroso processo de uniformização, que envolve diferentes processos de tratamento para facilitar a manipulação e as operações com variáveis. Eliminar valores ausentes ou nulos, padronizar padrões de escrita, realizar slice para obter as siglas de diretorias e superintendências são alguns exemplos.
 
-Os exemplos abaixo demonstram essas operações:
+Os trechos abaixo demonstram parte dessas operações:
 
 
 ```c++
