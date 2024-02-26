@@ -1,20 +1,20 @@
-# Pesquisa Comunicao Interna 2023
+# Pesquisa Comunicão Interna 2023
 
 :droplet:@Sabesp:droplet:, 
 
-esse é o processo de **ETL** (Extract, Transform and Load) e **análise de dados** da Pesquisa de Comunicação Interna de 2023.
+esse é o processo de **ETL** (Extract, Transform and Load) e **Análise de Dados** da Pesquisa de Comunicação Interna de 2023.
 
-:file_folder: Files: o arquivo principal é o Pesq_Interna_2023.ipynb, com os códigos e visualização. O arquivo PPT é a parte visual que demonstra a narrativa.
+:file_folder: Files: o arquivo principal é o Pesq_Interna_2023.ipynb, com os códigos e visualização; o arquivo PPT contém a apresentação detalhada da pesquisa e os resultados.
 
 :computer: Processo de ETL:
-*  extração automática em nuvem (azure)
-* carga em um csv
-*  transformação dos dados via código (python) no próprio Jupyter Notebook
-*  Carga dos dados em planilhas na nuvem
+*  extração dos formulários em nuvem (azure)
+*  transformação em csv
+*  carga em ambiente Python para manipulação (Jupyter Notebook)
+*  nova transformação para disponibilização local em xlsx com dados tratados
 
 
 :chart_with_upwards_trend: Processo de análise de dados:
-*  limpeza dos dados
+*  limpeza e manipulação dos dados 
 *  anáise estatística descritiva
 *  análise qualitativa
 *  análise de recorrência
@@ -25,7 +25,7 @@ esse é o processo de **ETL** (Extract, Transform and Load) e **análise de dado
 
 
 ## PESQUISA E A AMOSTRA
-A pesquisa de comunicação de 2023 teve 1615 respondentes (15% da população), com nível de confiança de 95% e erro estimado de 2,27%. A pesquisa buscou obter informações sobre a percepção do público interno sobre os canais de comunicação, seus atributos, o papel da liderança e a satisfação do cliente, entre outros temas. 
+A pesquisa de comunicação de 2023 teve 1615 respondentes (15% da população), com nível de confiança de 95% e erro estimado de 2,27%. A pesquisa buscou obter informações sobre a percepção do público interno sobre os canais de comunicação, seus atributos, o papel da liderança, a satisfação do cliente, entre outros temas de interesse. 
 
 
 Distribuição entre o público interno:<br>
@@ -45,7 +45,7 @@ Também não há correlação relevante entre as colunas numéricas
 
 ## LIMPEZA DOS DADOS
 
-Dados vindos de pesquisa precisam passar por um rigoroso processo de uniformização, que envolve diferentes processos de tratamento para facilitar a manipulação e as operações com variáveis. Eliminar valores ausentes ou nulos, padronizar padrões de escrita, realizar slice para obter as siglas de diretorias e superintendências são alguns exemplos.
+Dados vindos de pesquisa precisam passar por um rigoroso processo de uniformização, que envolve diferentes processos de tratamento para facilitar a manipulação e as operações com as variáveis. Eliminar valores ausentes ou nulos, padronizar padrões de escrita, realizar slice para obter as siglas de diretorias e superintendências são alguns exemplos desse processo.
 
 Os trechos abaixo demonstram parte dessas operações:
 
