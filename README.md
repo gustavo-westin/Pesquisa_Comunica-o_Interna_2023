@@ -344,7 +344,7 @@ Já a análise de texto propriamente dita, permite elaborar sentimentos e percep
 * “Workplace já faz parte diária das Informações inclusive complementares do portal sabesp”
 * “Ajuda na interação com outros colaboradores e outras areas da sabesp”
 
-### Recomendações
+### Recomendações :dart:
 A análise conjunta entre as duas abordagens, estatística descritiva e análise qualitativa, permite ao analista fazer recomendações ao grupo responsável pela comunicação interna. Para não alongar muito a análise, nos ateremos apenas as recomendações do Workplace. O restante do material pode ser acessado nos arquivos anexos. 
 
 ![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/fd9c8af9-8446-473c-b796-62bb14a60807)
