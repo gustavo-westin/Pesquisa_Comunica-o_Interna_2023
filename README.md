@@ -1,4 +1,4 @@
-![image](https://github.com/gustavo-westin/Pesquisa_Comunicao_Interna_2023/assets/113940727/ef6cde11-5877-4126-ba33-e76009cac4bb)# Pesquisa Comunição Interna 2023
+# Pesquisa Comunição Interna 2023
 
 :droplet:@Sabesp:droplet:, 
 
